@@ -35,7 +35,7 @@ let questions = [
   }
 ];
 
-//CONSTANTS
+
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
 
@@ -50,7 +50,7 @@ startGame = () => {
 
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-    //go to the end page
+    
     return window.location.assign("/end.html");
   }
   questionCounter++;
