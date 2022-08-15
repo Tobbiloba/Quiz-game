@@ -1,1 +1,1 @@
-# Quiz-game
+my quiz project
